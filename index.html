@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Bootstrap | Form</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="bg-success rounded" style="height:50px;">
+            <h1 class="text-center text-white">İletişim Formu</h1>
+        </div>
+        <div class="form-row mt-5">
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" placeholder="Email giriniz...">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="parola">Parola</label>
+                <input class="form-control" type="password" name="Parola" placeholder="Parola giriniz...">
+            </div>
+        </div>
+        
+            <div class="form-group ">
+                <label for="adres">Adres</label>
+                <textarea class="form-control" name="adres" id="" cols="10" rows="5"></textarea>
+            </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="sehir">Şehir</label>
+                <select class="form-control" name="sehir">
+                    <option selected="selected" >Bir il seçiniz</option>
+                    <option>İstanbul</option>
+                    <option>Ankara</option>
+                    <option>İzmir</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="">İlçe</label>
+                <select class="form-control" name="ilce">
+                    <option  selected="selected">Bir ilçe seçiniz</option>
+                    <option>Milas</option>
+                    <option>Bodrum</option>
+                    <option>Marmaris</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="zip">Zip kodu</label>
+                <input class="form-control" type="text" placeholder="posta kodu" name="zip" >
+            </div>
+
+            
+            
+        </div>    
+
+        <div class="form-group ">
+            <input type="submit" class="btn btn-success form-control d-block"> 
+        </div>
+       
+    </div>
+
+
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
